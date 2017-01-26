@@ -1,5 +1,5 @@
 {
-  "name": "pux-starter-app",
+  "name": "front-end-fp-elm",
   "version": "9.0.0",
   "description": "Starter Pux application using webpack with hot-reloading.",
   "main": "support/index.js",
@@ -13,6 +13,7 @@
     "postinstall": "bower cache clean && bower install",
     "clean": "rimraf static/dist && rimraf dist && rimraf output",
     "build": "npm run clean && webpack --config ./webpack.production.config.js --progress --profile --colors",
+    "deploy" : "gh-pages -d dist",
     "watch": "npm run clean && node ./webpack.config.js",
     "serve": "http-server dist --cors -p 3000",
     "start": "npm run watch",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.0.1",
+    "gh-pages": "^0.12.0",
     "raw-loader": "^0.5.1",
     "source-map-loader": "^0.1.5",
     "webpack-dev-middleware": "^1.8.3",

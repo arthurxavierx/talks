@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve('./dist'),
     filename: '[name]-[hash].min.js',
-    publicPath: '/'
+    publicPath: '/talks/'
   },
   module: {
     loaders: [

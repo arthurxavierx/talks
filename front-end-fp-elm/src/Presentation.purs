@@ -14,7 +14,7 @@ import Pux.Html (Html, (!), (#), (##), (#>))
 import Pux.Html (img, p, pre, span) as H
 import Pux.Html.Attributes (className, size, src, style) as A
 import Spectacle (appear, deck, listItem, spectacle) as H
-import Spectacle.Attributes (Progress(..), Transition(..), bgColor, href, lang, margin, progress, theme, transition, transitionDuration) as A
+import Spectacle.Attributes (Progress(Bar), Transition(Slide), bgColor, href, lang, margin, progress, textAlign, theme, transition, transitionDuration) as A
 import Spectacle.CodeSlide (codeSlide)
 import Spectacle.CodeSlide.Attributes (Loc(..), Range(..), RangeOption(..), code, ranges)
 
@@ -480,11 +480,32 @@ update msg model =
 
   , contentSlide ##
       [ title #> "Elm"
-      , list
-        ##
+      , list ##
         [ resource "Learn you an Elm" "https://learnyouanelm.github.io/"
         , resource "Elm documentation" "http://elm-lang.org/docs"
         , resource "Making Impossible States Impossible" "https://www.youtube.com/watch?v=IcgmSRJHu_8"
+        ]
+      ]
+
+  , contentSlide ##
+      [ subtitle #> "Arthur Xavier"
+      , list ##
+        [ H.listItem
+          ! A.textAlign "center"
+          ##
+          [ H.span #> "Twitter: "
+          , link
+            ! A.href "https://twitter.com/arthurxavierx"
+            #> "@arthurxavierx"
+          ]
+        , H.listItem
+          ! A.textAlign "center"
+          ##
+          [ H.span #> "Github: "
+          , link
+            ! A.href "https://github.com/arthur-xavier"
+            #> "@arthur-xavier"
+          ]
         ]
       ]
 
