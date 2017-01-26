@@ -1,0 +1,14 @@
+{
+  "name": "purescript-front-end-fp-elm",
+  "dependencies": {
+    "purescript-pux": "^7.0.0",
+    "purescript-pux-devtool": "^4.1.0",
+    "purescript-affjax": "^3.0.1",
+    "purescript-pux-spectacle": "^2.0.0",
+    "purescript-pux-spectacle-codeslide": "^2.0.0"
+  },
+  "devDependencies": {
+    "purescript-debug": "^2.0.0",
+    "purescript-psci-support": "^2.0.0"
+  }
+}

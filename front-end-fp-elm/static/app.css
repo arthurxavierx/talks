@@ -1,0 +1,11 @@
+body {
+  letter-spacing: -0.05rem;
+}
+
+#app {
+  font-weight: 300;
+}
+
+.strike {
+  text-decoration: line-through;
+}
