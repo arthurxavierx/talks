@@ -350,17 +350,12 @@ john =
     [ codePane elm """
 oldest : Person -> Person -> Maybe Person
 oldest p1 p2 =
-  case p1.age of
-    Nothing ->
+  case (p1.age, p2.age) of
+    (Just age1, Just age2) ->
+      Just (if age1 >= age2 then p1 else p2)
+
+    _ ->
       Nothing
-
-    Just age1 ->
-      case p2.age of
-        Nothing ->
-          Nothing
-
-        Just age2 ->
-          Just (if age1 >= age2 then p1 else p2)
       """
     ]
 
