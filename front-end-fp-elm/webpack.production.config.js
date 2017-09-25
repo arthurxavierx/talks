@@ -6,9 +6,8 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: [ path.join(__dirname, 'index.js') ],
   output: {
-    path: path.resolve('./dist'),
-    filename: '[name]-[hash].min.js',
-    publicPath: '/talks/'
+    path: path.resolve('../dist/front-end-fp-elm'),
+    filename: '[name]-[hash].min.js'
   },
   module: {
     loaders: [
