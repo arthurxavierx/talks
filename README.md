@@ -1,7 +1,12 @@
 # talks
 
-### _Upcoming_
+### Sobre programas e funções: pensando em abstração
 @ [InterCon 2017](https://eventos.imasters.com.br/intercon), 21 Oct 2017.
+
+> Programação funcional é uma ótima ferramenta para controle de complexidade. Não é à toa que é um paradigma que está em crescente evolução e uso. Nesta palestra será abordado o processo de abstração em programação funcional e como duas abstrações (ou padrões) específicas podem garantir complexidade sem dificuldade.
+
+- [Slides](https://www.slideshare.net/ArthurXavier7/sobre-programas-e-funcoes-pensando-em-abstrao) 🇧🇷
+- [Video](https://www.youtube.com/watch?v=9cFSihtXq_k) 🇧🇷
 
 ### Programação funcional em JavaScript: como e por quê?
 @ [iMasters JS Experience 2017](https://eventos.imasters.com.br/jsexperience), 23 Jun 2017
