@@ -1,5 +1,20 @@
 # talks
 
+### Type-safe embedded domain-specific languages
+@ [Monadic Party 2019](https://monadic.party/), 18–21 Jun 2019. 
+
+> Language is everything; it governs our lives: from our thought processes, our communication abilities and our understanding of the world, all the way up to law, politics, logic and programming. All of these domains of human experience are governed by different languages that talk to each other, and so should be your code. Haskell provides all the means necessary—and many more—to easily and safely use embedded small languages that are tailored to specific needs and business domains.
+> 
+> In this series of lectures and workshops, we will explore the whats, whys and hows of embedded domain-specific languages in Haskell, and how language oriented programing can bring type-safety, composability and simplicity to the development of complex applications.
+
+- [Slides](https://www.slideshare.net/ArthurXavier7/type-safe-embedded-domainspecific-languages-182775383) 🇬🇧
+- [Workshop](https://github.com/arthurxavierx/monadic-party-edsl) 🇬🇧
+- Videos 🇬🇧
+    - [Part 1](https://www.youtube.com/watch?v=4sTeT7poU3g)
+    - [Part 2](https://www.youtube.com/watch?v=OM_riJgZF8A)
+    - [Part 3](https://www.youtube.com/watch?v=gFJTKJgL2zI)
+    - [Part 4](https://www.youtube.com/watch?v=isAu8YuI6SA)
+
 ### Sobre programas e funções: pensando em abstração
 @ [InterCon 2017](https://eventos.imasters.com.br/intercon), 21 Oct 2017.
 
